@@ -47,47 +47,47 @@
 
 ### 基础
 
-* [Java 基础知识回顾](java/Java基础知识.md)
-* [Java 基础知识疑难点总结](java/Java疑难点.md)
-* [J2EE 基础知识回顾](java/J2EE基础知识.md)
+* [Java 基础知识回顾](docs/java/Java基础知识.md)
+* [Java 基础知识疑难点总结](docs/java/Java疑难点.md)
+* [J2EE 基础知识回顾](docs/java/J2EE基础知识.md)
 
 ### 容器
 
-* [Java容器常见面试题/知识点总结](java/collection/Java集合框架常见面试题.md)
-* [ArrayList 源码学习](java/collection/ArrayList.md)  
-* [LinkedList 源码学习](java/collection/LinkedList.md)   
-* [HashMap(JDK1.8)源码学习](java/collection/HashMap.md)  
+* [Java容器常见面试题/知识点总结](docs/java/collection/Java集合框架常见面试题.md)
+* [ArrayList 源码学习](docs/java/collection/ArrayList.md)  
+* [LinkedList 源码学习](docs/java/collection/LinkedList.md)   
+* [HashMap(JDK1.8)源码学习](docs/java/collection/HashMap.md)  
 
 ### 并发
 
-* [Java 并发基础常见面试题总结](java/Multithread/JavaConcurrencyBasicsCommonInterviewQuestionsSummary.md)
-* [Java 并发进阶常见面试题总结](java/Multithread/JavaConcurrencyAdvancedCommonInterviewQuestions.md)
-* [并发容器总结](java/Multithread/并发容器总结.md)
+* [Java 并发基础常见面试题总结](docs/java/Multithread/JavaConcurrencyBasicsCommonInterviewQuestionsSummary.md)
+* [Java 并发进阶常见面试题总结](docs/java/Multithread/JavaConcurrencyAdvancedCommonInterviewQuestions.md)
+* [并发容器总结](docs/java/Multithread/并发容器总结.md)
 * [乐观锁与悲观锁](essential-content-for-interview/面试必备之乐观锁与悲观锁.md)
-* [JUC 中的 Atomic 原子类总结](java/Multithread/Atomic.md)
-* [AQS 原理以及 AQS 同步组件总结](java/Multithread/AQS.md)
+* [JUC 中的 Atomic 原子类总结](docs/java/Multithread/Atomic.md)
+* [AQS 原理以及 AQS 同步组件总结](docs/java/Multithread/AQS.md)
 
 ### JVM
-* [一 Java内存区域](java/jvm/Java内存区域.md)
-* [二 JVM垃圾回收](java/jvm/JVM垃圾回收.md)
-* [三 JDK 监控和故障处理工具](java/jvm/JDK监控和故障处理工具总结.md)
-* [四 类文件结构](java/jvm/类文件结构.md)
-* [五 类加载过程](java/jvm/类加载过程.md)
-* [六 类加载器](java/jvm/类加载器.md)
+* [一 Java内存区域](docs/java/jvm/Java内存区域.md)
+* [二 JVM垃圾回收](docs/java/jvm/JVM垃圾回收.md)
+* [三 JDK 监控和故障处理工具](docs/java/jvm/JDK监控和故障处理工具总结.md)
+* [四 类文件结构](docs/java/jvm/类文件结构.md)
+* [五 类加载过程](docs/java/jvm/类加载过程.md)
+* [六 类加载器](docs/java/jvm/类加载器.md)
 
 ### I/O
 
-* [BIO,NIO,AIO 总结 ](java/BIO-NIO-AIO.md)
-* [Java IO 与 NIO系列文章](java/Java%20IO与NIO.md)
+* [BIO,NIO,AIO 总结 ](docs/java/BIO-NIO-AIO.md)
+* [Java IO 与 NIO系列文章](docs/java/Java%20IO与NIO.md)
 
 ### Java 8 
 
-* [Java 8 新特性总结](java/What's%20New%20in%20JDK8/Java8Tutorial.md)
-* [Java 8 学习资源推荐](java/What's%20New%20in%20JDK8/Java8教程推荐.md)
+* [Java 8 新特性总结](docs/java/What's%20New%20in%20JDK8/Java8Tutorial.md)
+* [Java 8 学习资源推荐](docs/java/What's%20New%20in%20JDK8/Java8教程推荐.md)
 
 ### 编程规范
 
-- [Java 编程规范](java/Java编程规范.md)
+- [Java 编程规范](docs/java/Java编程规范.md)
 
 ## 网络
 
@@ -184,7 +184,7 @@
 
 * [第一周（2018-8-7）](essential-content-for-interview/MostCommonJavaInterviewQuestions/第一周（2018-8-7）.md) (为什么 Java 中只有值传递、==与equals、 hashCode与equals)
 * [第二周（2018-8-13）](essential-content-for-interview/MostCommonJavaInterviewQuestions/第二周(2018-8-13).md)(String和StringBuffer、StringBuilder的区别是什么？String为什么是不可变的？、什么是反射机制？反射机制的应用场景有哪些？......)
-* [第三周（2018-08-22）](java/collection/Java集合框架常见面试题.md) （Arraylist 与 LinkedList 异同、ArrayList 与 Vector 区别、HashMap的底层实现、HashMap 和 Hashtable 的区别、HashMap 的长度为什么是2的幂次方、HashSet 和 HashMap 区别、ConcurrentHashMap 和 Hashtable 的区别、ConcurrentHashMap线程安全的具体实现方式/底层具体实现、集合框架底层数据结构总结）
+* [第三周（2018-08-22）](docs/java/collection/Java集合框架常见面试题.md) （Arraylist 与 LinkedList 异同、ArrayList 与 Vector 区别、HashMap的底层实现、HashMap 和 Hashtable 的区别、HashMap 的长度为什么是2的幂次方、HashSet 和 HashMap 区别、ConcurrentHashMap 和 Hashtable 的区别、ConcurrentHashMap线程安全的具体实现方式/底层具体实现、集合框架底层数据结构总结）
 * [第四周(2018-8-30).md](essential-content-for-interview/MostCommonJavaInterviewQuestions/第四周(2018-8-30).md) （主要内容是几道面试常问的多线程基础题。）
 
 ### 面经
@@ -218,10 +218,10 @@
 
 ## 待办
 
-- [x] [Java 8 新特性总结](./java/What's%20New%20in%20JDK8/Java8Tutorial.md)
-- [x] [Java 8 新特性详解](./java/What's%20New%20in%20JDK8/Java8教程推荐.md)
+- [x] [Java 8 新特性总结](./docs/java/What's%20New%20in%20JDK8/Java8Tutorial.md)
+- [x] [Java 8 新特性详解](./docs/java/What's%20New%20in%20JDK8/Java8教程推荐.md)
 - [ ] Java 多线程类别知识重构(---正在进行中---)
-- [x] [BIO,NIO,AIO 总结 ](./java/BIO-NIO-AIO.md)
+- [x] [BIO,NIO,AIO 总结 ](./docs/java/BIO-NIO-AIO.md)
 - [ ] Netty 总结(---正在进行中---)
 - [ ] 数据结构总结重构(---正在进行中---)
 
