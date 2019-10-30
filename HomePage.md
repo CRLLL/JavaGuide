@@ -60,9 +60,6 @@
 
 ### 并发
 
-* [并发编程基础知识](docs/java/Multithread/并发编程基础知识.md)
-* [synchronized关键字](docs/java/Multithread/synchronized.md)
-* [ThreadLocal](docs/java/Multithread/ThreadLocal.md)
 * [Java 并发基础常见面试题总结](docs/java/Multithread/JavaConcurrencyBasicsCommonInterviewQuestionsSummary.md)
 * [Java 并发进阶常见面试题总结](docs/java/Multithread/JavaConcurrencyAdvancedCommonInterviewQuestions.md)
 * [并发容器总结](docs/java/Multithread/并发容器总结.md)
