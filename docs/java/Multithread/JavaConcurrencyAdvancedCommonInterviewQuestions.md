@@ -220,7 +220,7 @@ synchronized 是依赖于 JVM 实现的，前面我们也讲到了 虚拟机团�
 
 要解决这个问题，就需要把变量声明为**volatile**，这就指示 JVM，这个变量是不稳定的，每次使用它都到主存中进行读取。
 
-说白了， **volatile** 关键字的主要作用就是保证变量的可见性然后还有一个作用是防止指令重排序。
+说白了，<font color=red > **volatile关键字的主要作用就是保证变量的可见性然后还有一个作用是防止指令重排序。** </font>
 
 ![volatile关键字的可见性](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-6/volatile关键字的可见性.png)
 
