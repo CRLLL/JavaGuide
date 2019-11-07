@@ -1,6 +1,6 @@
 点击关注[公众号](#公众号)及时获取笔主最新更新文章，并可免费领取本文档配套的《Java面试突击》以及Java工程师必备学习资源。
 
-推荐一下京东云最近的活动，刚好自己需要，感觉优惠力度挺大的，除了新人有很多一折服务器外，消费还会返还金豆，[点击了解](https://re.jdcloud.com/cps?returnUrl=aHR0cHM6Ly93d3cuamRjbG91ZC5jb20vY24vYWN0aXZpdHkveWVhci1lbmQ_bUlkPTE4JmNwc0tleT0xZGExN2NjYjQ1OGY0NWI2OWYxYjZjZWRkYTRkN2E4ZA==)
+**[推荐一下阿里云双11的活动：云服务器1折起，仅86元/年，限量抢购！](https://www.aliyun.com/1111/2019/group-buying-share?ptCode=32AE103FC8249634736194795A3477C4647C88CF896EF535&userCode=hf47liqn&share_source=copy_link)** （仅限新人，老用户可以考虑使用家人或者朋友账号购买，推荐799/3年 2核4G 这个性价比和适用面更广。不懂怎么使用云服务器的朋友可以看这篇[阿里云服务器使用经验](docs/tools/阿里云服务器使用经验.md)）。
 
 <p align="center">
 <a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
@@ -19,12 +19,9 @@
 
 <h3 align="center">Sponsor</h3>
 <p align="center">
-  <a  href="https://study.163.com/topics/JavaGuide/" >
+  <a  href="https://url.163.com/hXm" >
 <img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/WechatIMG1.png"width="" style="margin: 0 auto;"/>
   </a >
-    <a  href="https://re.jdcloud.com/cps?returnUrl=aHR0cHM6Ly93d3cuamRjbG91ZC5jb20vY24vYWN0aXZpdHkveWVhci1lbmQ_bUlkPTE4JmNwc0tleT0xZGExN2NjYjQ1OGY0NWI2OWYxYjZjZWRkYTRkN2E4ZA==" >
-<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/728*90.jpg"width="" style="margin: 0 auto;"/>
-  </a>
 </p>
 
 推荐使用 https://snailclimb.top/JavaGuide/ 在线阅读(访问速度慢的话，请使用 https://snailclimb.gitee.io/javaguide )，在线阅读内容本仓库同步一致。这种方式阅读的优势在于：有侧边栏阅读体验更好，Gitee pages 的访问速度相对来说也比较快。
@@ -38,7 +35,7 @@
     - [JVM](#jvm)
     - [I/O](#io)
     - [Java 8](#java-8)
-    - [编程规范](#编程规范)
+    - [优雅 Java 代码必备实践(Java编程规范)](#优雅-java-代码必备实践java编程规范)
 - [网络](#网络)
 - [操作系统](#操作系统)
     - [Linux相关](#linux相关)
@@ -50,14 +47,16 @@
     - [Redis](#redis)
 - [系统设计](#系统设计)
     - [常用框架(Spring/SpringBoot、Zookeeper ... )](#常用框架)
+    - [数据通信(消息队列、Dubbo ... )](#数据通信)
     - [权限认证](#权限认证)
     - [设计模式(工厂模式、单例模式 ... )](#设计模式)
-    - [数据通信(消息队列、Dubbo ... )](#数据通信)
-    - [网站架构](#网站架构)
+    - [微服务](#微服务)
+    - [架构](#架构)
 - [面试指南](#面试指南)
     - [备战面试](#备战面试)
     - [常见面试题总结](#常见面试题总结)
     - [面经](#面经)
+- [Java学习常见问题汇总](#java学习常见问题汇总)
 - [工具](#工具)
     - [Git](#git)
     - [Docker](#Docker)
@@ -112,9 +111,9 @@
 * [Java 8 学习资源推荐](docs/java/What's%20New%20in%20JDK8/Java8教程推荐.md)
 * [Java8 forEach 指南](docs/java/What's%20New%20in%20JDK8/Java8foreach指南.md)
 
-### 编程规范
+### 优雅 Java 代码必备实践(Java编程规范)
 
-- [Java 编程规范](docs/java/Java编程规范.md)
+* [Java 编程规范以及优雅Java代码实践总结](docs/java/Java编程规范.md)
 
 ## 网络
 
@@ -160,7 +159,8 @@
 
 * [Redis 总结](docs/database/Redis/Redis.md)
 * [Redlock分布式锁](docs/database/Redis/Redlock分布式锁.md)
-* [如何做可靠的分布式锁，Redlock真的可行么](docs/database/Redis/如何做可靠的分布式锁，Redlock真的可行么.md)
+* [如何做可靠的分布式锁，Redlock真的可行么]()
+* [几种常见的 Redis 集群以及使用场景](docs/database/Redis/redis集群以及应用场景.md) 
 
 ## 系统设计
 
@@ -180,6 +180,23 @@
 - [ZooKeeper 相关概念总结](docs/system-design/framework/ZooKeeper.md)
 - [ZooKeeper 数据模型和常见命令](docs/system-design/framework/ZooKeeper数据模型和常见命令.md)
 
+### 数据通信
+
+- [数据通信(RESTful、RPC、消息队列)相关知识点总结](docs/system-design/data-communication/summary.md)
+- [服务之间的调用为啥不直接用 HTTP 而用 RPC？](docs/system-design/data-communication/why-use-rpc.md)
+
+#### Dubbo
+
+- [Dubbo 总结：关于 Dubbo 的重要知识点](docs/system-design/data-communication/dubbo.md)
+
+#### 消息中间件
+
+- [消息队列总结](docs/system-design/data-communication/message-queue.md)
+- [RabbitMQ 入门](docs/system-design/data-communication/rabbitmq.md)
+- [RocketMQ的几个简单问题与答案](docs/system-design/data-communication/RocketMQ-Questions.md)
+- [Kafka入门看这一篇就够了](docs/system-design/data-communication/Kafka入门看这一篇就够了.md)
+- [Kafka系统设计开篇-面试看这篇就够了](docs/system-design/data-communication/Kafka系统设计开篇-面试看这篇就够了.md)
+
 ### 权限认证
 
 - **[权限认证基础:区分Authentication,Authorization以及Cookie、Session、Token](docs/system-design/authority-certification/basis-of-authority-certification.md)**
@@ -190,21 +207,15 @@
 
 - [设计模式系列文章](docs/system-design/设计模式.md)
 
-### 数据通信
+### 微服务
 
-- [数据通信(RESTful、RPC、消息队列)相关知识点总结](docs/system-design/data-communication/summary.md)
-- [Dubbo 总结：关于 Dubbo 的重要知识点](docs/system-design/data-communication/dubbo.md)
-- [消息队列总结](docs/system-design/data-communication/message-queue.md)
-- [RabbitMQ 入门](docs/system-design/data-communication/rabbitmq.md)
-- [RocketMQ的几个简单问题与答案](docs/system-design/data-communication/RocketMQ-Questions.md)
-- [Kafka入门看这一篇就够了](docs/system-design/data-communication/Kafka入门看这一篇就够了.md)
-- [Kafka系统设计开篇-面试看这篇就够了](docs/system-design/data-communication/Kafka系统设计开篇-面试看这篇就够了.md)
+- [浅析如何设计一个亿级网关（API Gateway）](docs/system-design/micro-service/谈谈微服务中的 API 网关.md)
 
-### 网站架构
+### 架构
 
 - [一文读懂分布式应该学什么](docs/system-design/website-architecture/分布式.md)
 - [8 张图读懂大型网站技术架构](docs/system-design/website-architecture/8%20张图读懂大型网站技术架构.md)
-- [【面试精选】关于大型网站系统架构你不得不懂的10个问题](docs/system-design/website-architecture/【面试精选】关于大型网站系统架构你不得不懂的10个问题.md)
+- [【面试精选】关于大型网站系统架构你不得不懂的10个问题](docs/system-design/website-architecture/关于大型网站系统架构你不得不懂的10个问题.md)
 
 ## 面试指南
 
@@ -231,6 +242,11 @@
 - [蚂蚁金服2019实习生面经总结(已拿口头offer)](docs/essential-content-for-interview/BATJrealInterviewExperience/蚂蚁金服实习生面经总结(已拿口头offer).md)
 - [2019年蚂蚁金服、头条、拼多多的面试总结](docs/essential-content-for-interview/BATJrealInterviewExperience/2019alipay-pinduoduo-toutiao.md)
 
+## Java学习常见问题汇总
+
+- [Java学习路线和方法推荐](docs/questions/java-learning-path-and-methods.md)
+- [Java培训四个月能学会吗？](docs/questions/java-training-4-month.md)
+
 ## 工具
 
 ### Git
@@ -239,8 +255,12 @@
 
 ### Docker
 
-* [Docker 入门](docs/tools/Docker.md)
+* [Docker 基本概念解读](docs/tools/Docker.md)
 * [一文搞懂 Docker 镜像的常用操作！](docs/tools/Docker-Image.md)
+
+### 其他
+
+- [阿里云服务器使用经验](docs/tools/阿里云服务器使用经验.md)
 
 ## 资源
 
@@ -315,6 +335,10 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 <a href="https://github.com/fanchenggang">  
     <img src="https://avatars2.githubusercontent.com/u/8225921?s=460&v=4" width="45px">
 </a>
+<a href="https://github.com/Rustin-Liu">  
+    <img src="https://avatars2.githubusercontent.com/u/29879298?s=400&v=4" width="45px">
+</a>
+
 <a href="https://github.com/ipofss">
     <img src="https://avatars1.githubusercontent.com/u/5917359?s=460&v=4" width="45px"></a>
 <a href="https://github.com/Gene1994">
